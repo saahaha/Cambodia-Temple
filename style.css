@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: rgb(45, 35, 46);
+    color: rgb(238, 209, 162);
+    text-align: center;
+    font-size: xx-large;
+
+}
+div.banner {
+    padding: 15px;
+    background-image: url(./angkorwat3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+}
+.nav {
+    padding: 15px;
+    background-color: rgba(228, 228, 153, 0);
+
+}
+.nav a {
+    padding: 7px;
+    background-color: rgb(190, 146, 128);
+    border-radius: 15px;
+    text-decoration: none;
+    color: rgb(121, 50, 24);
+}
+
+.temples-section {
+    padding: 15px;
+    background-color: brown;
+}
+.templecard-container {
+    padding: 15px;
+    background-color: rgba(243, 122, 78, 0.493);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+.templecard {
+    padding: 15px;
+    background-color: rgb(214, 162, 103);
+    width: 250px;
+    height: 300px;
+    color: black;
+    font-size: x-large;
+    border: solid rgba(175, 120, 38, 0.877) 6px;
+    border-radius: 15px;
+}
+.templecard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.foodcard-section {
+    padding: 15px;
+    background-color: rgb(183, 214, 214);
+    
+}
+.food-container {
+    padding: 15px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+.foodcard {
+    padding: 15px;
+    background-color: black;
+    height: 350px;
+    width: 250px;
+    
+
+}
+.foodcard img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.foodcard a {
+    padding: 15px;
+    text-decoration: none;
+}
+
+a.link {
+    text-decoration: none;
+    color: rgb(238, 209, 162);
+    
+}
+a.templess {
+    text-decoration: none;
+    color: rgb(238, 209, 162);
+}
+.culturecard-section {
+    padding: 15px;
+    background-color: blueviolet;
+}
